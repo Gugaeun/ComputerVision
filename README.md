@@ -55,8 +55,8 @@ OpenCV 및 딥러닝을 활용한 컴퓨터 비전 실습 코드와 프로젝트
 
 ## 📝 Computer Vision Homework
 
-- [과제 repo](https://github.com/Gugaeun/Homeworks/blob/main/README.md)
-- [CV 과제](https://github.com/Gugaeun/Homeworks/tree/main/CV_homework)
+- [실습 repo](https://github.com/Gugaeun/Practicum/blob/main/README.md)
+- [CV 실습 바로가기](https://github.com/Gugaeun/Practicum/tree/main/CV_Practicum)
 
 ---
 
