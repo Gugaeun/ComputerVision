@@ -23,8 +23,17 @@ OpenCV와 딥러닝을 활용한 컴퓨터 비전 실습 코드를 정리한 저
 
 ### 🔹 영상 처리 기초 (ch3~ch5)
 - 색상 공간 변환, 필터링(Blur/Gaussian/Median)
-- Canny/Sobel Edge Detection, Contour 추출
+- Canny/Sobel Edge Detection, Contour 추출, 허프 변환 원 검출
+- SIFT 특징점 검출·매칭, 호모그래피로 객체 위치 찾기
 - 계산기·전화번호 인식 등 미니 프로젝트
+
+**실행 결과** (각 이미지 아래에 실행한 코드 파일을 표기했습니다)
+
+![이진화·히스토그램 평활화·엠보싱 (ch3)](images/ch3_basic.png)
+
+![에지·윤곽선·원 검출 (ch4)](images/ch4_edges.png)
+
+![특징점 검출·매칭·호모그래피 (ch5)](images/ch5_features.png)
 
 ### 🔹 딥러닝 기반 객체 인식 (ch7~ch9)
 - MLP/CNN으로 MNIST, CIFAR-10 이미지 분류
