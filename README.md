@@ -58,6 +58,10 @@ OpenCV와 딥러닝을 활용한 컴퓨터 비전 실습 코드를 정리한 저
 - Vision Transformer(ViT)를 직접 구현하여 CIFAR-10 분류 (Patch Embedding, Multi-Head Attention 등)
 - PointNet 계열 구조로 3D 포인트클라우드(ModelNet10) 분류
 
+**실행 결과** (PointNet을 20 에포크 학습한 뒤, 무작위 테스트 샘플 8개를 예측한 결과입니다. 8개 중 6개가 정답과 일치했고 최종 검증 정확도는 75.6%였습니다)
+
+![PointNet 3D 포인트클라우드 분류 (ch12)](images/ch12_pointnet.png)
+
 ---
 
 ## 💡 What I Learned
