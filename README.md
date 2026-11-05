@@ -41,10 +41,18 @@ OpenCV와 딥러닝을 활용한 컴퓨터 비전 실습 코드를 정리한 저
 - DeepLabV3(ADE20K)로 시맨틱 분할, Mask R-CNN으로 인스턴스 분할
 - pixellib 기반 배경 블러·합성 GUI
 
+**실행 결과**
+
+![YOLOv3 객체 탐지 (ch9)](images/ch9_yolo.png)
+
 ### 🔹 실시간 영상 분석 (ch10)
 - Farneback / Lucas-Kanade Optical Flow로 모션 추적
 - **YOLOv3 + SORT 알고리즘**으로 웹캠 실시간 인물 탐지·추적 (ID 부여)
 - MediaPipe로 얼굴 검출, 얼굴 랜드마크(Face Mesh), 손 추적, 포즈 추정 + AR 필터(증강현실 오브젝트 합성) 구현
+
+**실행 결과** (웹캠 예제는 웹캠 입력 대신 저장소의 샘플 영상 `slow_traffic_small.mp4`로 실행해 캡처했습니다)
+
+![Optical Flow·MediaPipe·YOLOv3+SORT (ch10)](images/ch10_realtime.png)
 
 ### 🔹 최신 딥러닝 아키텍처 (ch11~ch12)
 - Vision Transformer(ViT)를 직접 구현하여 CIFAR-10 분류 (Patch Embedding, Multi-Head Attention 등)
